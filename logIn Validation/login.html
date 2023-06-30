@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="face.ico">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="comLogo">
+           
+            <img src="4r.png" alt="logo">
+        </div>
+
+        <button type="submit" onclick="openForm()" class="btn">Open logIn</button>
+        <div id="form" class="form">
+   <h2 id="h2">Log into your account</h2>
+   <input type="text" id="name" placeholder="User Name" >
+   <span id="fname"></span>
+   <input type="password"id="pass" placeholder="Enter password">
+   <span id="fpass"></span>
+   <input type="password"id="Cpass" placeholder="Confirm password">
+   <span id="fcpass"></span>
+   <input type="text"id="mail" placeholder="Enter Email">
+   <span id="fmail"></span>
+   <input type="text"id="ph" placeholder="Enter Mobile No..">
+   <span id="fph"></span>
+   <div>
+   <input type="radio" id="gender" value="male"/><label for="male">Male</label>
+   <input type="radio" id="gender" value="female">  <label for="male">Female</label>
+</div>
+   <button type="button" onclick="formValidate()">Click ME</button>
+        </div>
+    </div>
+
+    <button type="submit" onclick ="closeForm()" class="btn2"> close LogIn</button>
+</body>
+</html>

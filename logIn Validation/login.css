@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    width:500px;
+    height:auto;
+}
+.btn2{
+    width:500px;
+    height:auto;
+    position: absolute;
+  top: 200px;
+  left:100px;
+}
+.container{
+    width: 100%;
+    height:100vw;
+    background-color: rgb(242, 242, 247);
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container .comLogo{
+    width:100%;
+    height:70px;
+    background-color: rgb(250, 247, 247);
+    display: flex;
+    justify-content: center;
+    border:2px solid rgb(98, 255, 62);
+    box-shadow:2px 2px 3px 0 rgb(225, 234, 223);
+}
+.container .comLogo img{
+    height:100px;
+    width:100px;
+    align-self: center;
+    margin-top:.9em;
+}
+.form{
+    width: 400px;
+    height:auto;
+   display: flex;
+   /* justify-content: space-around; */
+   gap:10px;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    padding: 30px;
+    background:linear-gradient(to left Top,rgb(224, 106, 106),rgb(100, 76, 32),rgb(77, 153, 77));
+    margin: 3.6em 0;
+    border:2px solid rgb(235, 239, 234);
+    box-shadow:2px 4px 4px 20px rgb(15, 54, 7);
+    position: absolute;
+    top:0;
+    left:45%;
+    transform: translate(-50%,-60%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+
+.form h2{
+    text-align: center;
+}
+input{
+    padding:8px;
+border:5px outset rgb(255, 248, 248) ;
+}
+button{
+  background-color: rgb(0, 179, 255);
+  max-width:70px;
+  padding: 2px;
+  font-size:15px;
+  align-self: center;
+}  
+.open-popUp{
+    visibility:visible;
+    top:50%;
+    transform: translate(-50%,-60%) scale(1);
+}
+  
